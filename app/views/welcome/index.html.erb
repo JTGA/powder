@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <body class="welcome">
+    <meta charset="UTF-8">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:800,400' rel='stylesheet' type='text/css'>
+
+    <%= stylesheet_link_tag "welcome.scss" %>
+
+    <h1>Welcome to
+
+      <%= image_tag "powderlogo.png" %>
+
+      <div class="welcome-text">Real-Time California Snow Conditions</div>
+
+    </h1>
+
+    <div class="resorts">
+      <%= link_to 'Resorts', controller: 'resorts' %>
+    </div>
+
+  </head>
+
+</body>
+</html>
+
+
+

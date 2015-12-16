@@ -1,0 +1,10 @@
+<h1><%= @resort["name"] %></h1>
+
+<h3>Lift Status</h3>
+<% @resort["lifts"]["status"].each do |lift, status| %>
+<div>
+  <h5><%= lift %></h5>
+  <%= status %>
+</div>
+<br>
+<% end %>

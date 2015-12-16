@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  link: MyString
+  powder: MyString
+  lifts: MyString
+  liftstats: MyString
+  open: MyString
+
+two:
+  name: MyString
+  link: MyString
+  powder: MyString
+  lifts: MyString
+  liftstats: MyString
+  open: MyString
