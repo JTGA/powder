@@ -2,19 +2,6 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
-body {
-  background: url("skical4.jpg");
-  -webkit-background-size: cover;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-size: 155%;
-  background-attachment: fixed;
-  background-position: 40% 60%;
-  height: 100vh;
-  width: 100%;
-  overflow: hidden;
-  position: fixed;
-}
 
 h1 {
   font-family: "Times New Roman", Times, serif;
@@ -32,4 +19,15 @@ h1 {
   font-size: 24px;
   color: #11353C;
   font-style: italic;
+}
+
+.welcome-bg {
+  background: url("skical4.jpg");
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: 40% 60%;
+  height: 100vh;
+  width: 100%;
 }

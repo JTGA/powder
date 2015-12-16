@@ -1,10 +1,26 @@
-<h1><%= @resort["name"] %></h1>
+<h1><a href="<%= @resort['href'] %>" target="_blank"><%= @resort["name"] %></a></h1>
 
-<h3>Lift Status</h3>
-<% @resort["lifts"]["status"].each do |lift, status| %>
-<div>
-  <h5><%= lift %></h5>
-  <%= status %>
+<%= link_to 'Resorts', controller: 'resorts' %>
+
+<div class="resort-wrap">
+  <div class="snow">
+    <h3>Powder</h3>
+    <h5>Rating: <%= @resort["powder"]["rating"] %></h5>
+  </div>
+
+  <div class="weather">
+    <h3>Weather</h3>
+    <h5>Rating: <%= @resort["powder"]["rating"] %></h5>
+  </div>
+
+  <div class="clear"></div>
+
+  <h3>Lift Status</h3>
+  <% @resort["lifts"]["status"].each do |lift, status| %>
+  <div class="lift">
+    <h5><%= lift %></h5>
+    <%= status.upcase %>
+  </div>
+  <% end %>
 </div>
-<br>
-<% end %>
+

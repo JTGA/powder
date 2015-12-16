@@ -3,10 +3,6 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
 
-body {
-  background-color: white;
-}
-
 .resortlist {
   font-size: 28px;
   color: white;
@@ -42,4 +38,60 @@ body {
   margin: 50px;
 }
 
+.lift {
+  padding: 20px;
+  float: left;
+  margin: 15px;
+  font: 20px Helvetica;
+  width: 170px;
+  height: 100px;
+  background-color: rgba(0,0,255,0.1);
+  border-radius: 10px;
+}
+
+.snow {
+  font: 20px Helvetica;
+  float: left;
+  margin: 15px;
+  padding: 20px;
+  width: 410px;
+  height: 100px;
+  background-color: rgba(0,0,255,0.1);
+  border-radius: 10px;
+}
+
+.weather {
+  font: 20px Helvetica;
+  float: right;
+  margin: 15px;
+  padding: 20px;
+  width: 410px;
+  height: 100px;
+  background-color: rgba(0,0,255,0.1);
+  border-radius: 10px;
+}
+
+.resorts-bg {
+  background: url("skical2.jpg");
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: 40% 60%;
+  height: 100vh;
+  width: 100%;
+}
+
+.resorts-wrap {
+  width: 100%;
+  text-align: center;
+}
+
+.clear {
+  clear: both;
+}
+
+.resort-wrap {
+  margin: 20px;
+}
 
