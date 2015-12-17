@@ -4,6 +4,12 @@
   <%= link_to 'Resorts', controller: 'resorts' %>
 </div>
 
+<br>
+
+<div class="showinfo">
+<h2>Current mountain conditions:</h2>
+</div>
+
 <div class="resort-wrap">
   <div class="snow">
     <h3>Powder</h3>
@@ -17,7 +23,7 @@
 
   <div class="clear"></div>
 
-  <div class="lifttext"> <h3>Lift Status</h3> </div>
+  <div class="lifttext"> <h2>Lifts in operation:</h2><h3>Status</h3> </div>
   <% @resort["lifts"]["status"].each do |lift, status| %>
   <div class="lift">
     <h5><%= lift %></h5>

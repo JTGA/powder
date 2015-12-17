@@ -16,7 +16,7 @@ h1 {
 }
 
 .resortlist h1 {
-  font-family: 'Roboto Slab', serif;
+  font-family: "Times New Roman", Times, serif;
   font-size: 48px;
   color: black;
 }
@@ -59,7 +59,7 @@ h1 {
 .lift {
   padding: 20px;
   float: left;
-  margin: 15px;
+  margin: 20px;
   font: 20px Helvetica;
   width: 170px;
   height: 100px;
@@ -120,6 +120,10 @@ h1 {
 }
 
 .lifttext {
+  text-align: center;
+}
+
+.showinfo {
   text-align: center;
 }
 
