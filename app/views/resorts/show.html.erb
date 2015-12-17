@@ -1,6 +1,8 @@
 <h1><a href="<%= @resort['href'] %>" target="_blank"><%= @resort["name"] %></a></h1>
 
+<div class="resortback">
 <%= link_to 'Resorts', controller: 'resorts' %>
+</div>
 
 <div class="resort-wrap">
   <div class="snow">
@@ -9,13 +11,13 @@
   </div>
 
   <div class="weather">
-    <h3>Weather</h3>
-    <h5>Rating: <%= @resort["powder"]["rating"] %></h5>
+    <h3>Current Weather</h3>
+    <h5> <%= @resort["weather"]["conditions"] %> </h5>
   </div>
 
   <div class="clear"></div>
 
-  <h3>Lift Status</h3>
+  <div class="lifttext"> <h3>Lift Status</h3> </div>
   <% @resort["lifts"]["status"].each do |lift, status| %>
   <div class="lift">
     <h5><%= lift %></h5>

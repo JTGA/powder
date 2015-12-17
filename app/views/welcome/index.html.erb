@@ -1,17 +1,13 @@
-  <div class="welcome">
-    <h1>Welcome to
+  <h1>
+    <%= image_tag "powderlogo.png", :class => "style_image" %>
 
-      <%= image_tag "powderlogo.png" %>
+    <div class="welcome-text">Real-Time California Snow Conditions</div>
+  </h1>
 
-      <div class="welcome-text">Real-Time California Snow Conditions</div>
-
-    </h1>
-
-    <div class="resorts">
-      <%= link_to 'Resorts', controller: 'resorts' %>
-    </div>
-
+  <div class="resorts">
+    <%= link_to 'Resorts', controller: 'resorts' %>
   </div>
+
 
 
 

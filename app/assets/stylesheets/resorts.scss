@@ -5,7 +5,7 @@
 
 .resortlist {
   font-size: 28px;
-  color: white;
+  color: black;
 }
 
 .image-size1 {
@@ -72,7 +72,7 @@
 }
 
 .resorts-bg {
-  background: url("skical2.jpg");
+  background: url("");
   -webkit-background-size: cover;
   background-size: cover;
   background-repeat: no-repeat;
@@ -93,5 +93,13 @@
 
 .resort-wrap {
   margin: 20px;
+}
+
+.resortback {
+  text-align: center;
+}
+
+.lifttext {
+  text-align: center;
 }
 
