@@ -126,9 +126,26 @@ h1 {
 
 .lifttext {
   text-align: center;
+  display: block;
+  clear: both;
+  padding: 25px;
 }
 
 .showinfo {
+  text-align: center;
+}
+
+.webcams {
+  float: left;
+  display: inline-block;
+  width: 50%;
+  text-align: center;
+}
+
+.twitter {
+  float: left;
+  display: inline-block;
+  width: 50%;
   text-align: center;
 }
 

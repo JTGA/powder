@@ -23,6 +23,20 @@
 
   <div class="clear"></div>
 
+  <% if @resort["webcams"][0] %>
+
+  <div class="webcams">
+    <h3>Webcams</h3>
+    <h5> <%= @resort["webcams"][0]["name"] %> </h5>
+    <img src="<%= @resort["webcams"][0]["image"] %>">
+  </div>
+  <% end %>
+
+  <div class="twitter">
+    <h3>Twitter</h3>
+    <h5> <%= @resort["twitter"]["tweets"][0]["text"] %> </h5>
+  </div>
+
   <div class="lifttext"> <h2>Lifts in operation:</h2><h3>Status</h3> </div>
   <% @resort["lifts"]["status"].each do |lift, status| %>
   <div class="lift">
