@@ -15,6 +15,17 @@
  */
 
 
+html {
+  height: 100%;
+}
+
 body {
+  margin: 0;
+  height: 100%;
   width: 100%;
+  background-color: rgba(220,220,220, 0.2);
+}
+
+.green {
+  color: green;
 }

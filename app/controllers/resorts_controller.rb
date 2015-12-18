@@ -6,8 +6,12 @@ class ResortsController < ApplicationController
   end
 
   def show
-    @bg = "resorts-bg"
+    @bg = "resort-bg"
     response = HTTParty.get('http://liftie.info/api/resort/' + params[:id])
     @resort = JSON.parse(response.body)
+
+    @twitter = @resort["twitter"]["tweets"][0]["text"]
+    @twitter.gsub! 'http', '<a target="_blank" href="http'
+    @twitter += '">Click Link</a>'
   end
 end

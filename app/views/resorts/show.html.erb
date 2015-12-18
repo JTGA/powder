@@ -34,14 +34,14 @@
 
   <div class="twitter">
     <h3>Twitter</h3>
-    <h5> <%= @resort["twitter"]["tweets"][0]["text"] %> </h5>
+    <h5> <%= @twitter.html_safe %> </h5>
   </div>
 
   <div class="lifttext"> <h2>Lifts in operation:</h2><h3>Status</h3> </div>
   <% @resort["lifts"]["status"].each do |lift, status| %>
   <div class="lift">
     <h5><%= lift %></h5>
-    <%= status.upcase %>
+    <p class="<% if status == 'open' %>green<% end %>"><%= status.upcase %></p>
   </div>
 
   <% end %>
