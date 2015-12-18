@@ -19,7 +19,15 @@ Powder is a clean, simple, and fast way to obtain up-to-date real-time informati
 
 2. Wireframes
 
+Current wireframes are included within the app.  Reference wireframes in the app.
+
+
 3. Trello
+
+Trello Board Link:
+
+https://trello.com/b/DkhnBD7h/wdi-project-4
+
 
 4. Technologies
 
