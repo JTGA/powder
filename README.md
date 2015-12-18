@@ -14,11 +14,17 @@ Unsolved Problems, Etc
 
 1. Description
 
+Powder is a clean, simple, and fast way to obtain up-to-date real-time information about California ski resorts.  This includes current weather, chair-lift status, powder rating, and more.
+
+
 2. Wireframes
 
 3. Trello
 
 4. Technologies
+
+Technologies used to in the formation of this web application include: HTML, Ruby on Rails, and CSS/SCSS. In addition PostgreSQL was used in the formation of the database. Also, Trello was used for project management and workflow assistance with Wireframes and User Stories. Heroku is being used as a cloud platform to host the application.
+
 
 5. Installation/Startup Instructions
 
